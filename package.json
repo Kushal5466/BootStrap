@@ -1,0 +1,42 @@
+{
+  "name": "boot",
+  "version": "1.0.0",
+  "description": "Admin Theme",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "start:dev":"webpack-dev-server"
+
+  },
+  "keywords": [
+    "admin",
+    "theme"
+  ],
+  "author": "Kushal",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.0",
+    "auto-prefixer": "^0.4.2",
+    "autoprefixer": "^8.6.5",
+    "css-loader": "^4.3.0",
+    "fibers": "^5.0.0",
+    "file-loader": "^6.1.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.1.1"
+  }
+}
